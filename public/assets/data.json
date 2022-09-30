@@ -1,0 +1,32 @@
+{
+	"programsArray": [
+		{
+			"programName": "Brave Browser",
+			"runningTime": 3300
+		},
+		{
+			"programName": "Google Chrome",
+			"runningTime": 5000
+		},
+		{
+			"programName": "Visual Studio Code",
+			"runningTime": 4010
+		},
+		{
+			"programName": "League of Legends",
+			"runningTime": 10
+		},
+		{
+			"programName": "Setup/Uninstall",
+			"runningTime": 10
+		},
+		{
+			"programName": "mspaint.exe",
+			"runningTime": 10
+		},
+		{
+			"programName": "Android Studio",
+			"runningTime": 40
+		}
+	]
+}
