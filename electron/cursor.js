@@ -1,6 +1,5 @@
 const { storeData, returnStoredData, storeCursor } = require("./store");
 const Store = require("electron-store");
-const findit = require("findit");
 const getCursorCurrentPosition = async () => {
   return new Promise((resolve, reject) => {
     const { exec } = require("child_process");

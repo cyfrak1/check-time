@@ -1,8 +1,12 @@
 {
 	"programsArray": [
 		{
+			"programName": "/user-is-away/",
+			"runningTime": 0
+		},
+		{
 			"programName": "Brave Browser",
-			"runningTime": 3570
+			"runningTime": 3571
 		},
 		{
 			"programName": "Google Chrome",
@@ -10,7 +14,7 @@
 		},
 		{
 			"programName": "Visual Studio Code",
-			"runningTime": 4280
+			"runningTime": 4281
 		},
 		{
 			"programName": "League of Legends",

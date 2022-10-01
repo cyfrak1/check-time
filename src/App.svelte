@@ -6,6 +6,7 @@
 	import Dashboard from "./views/Dashboard.svelte";
 	import ProgramList from './views/ProgramList.svelte';
 	import {push} from 'svelte-spa-router';
+	import { checkCursor } from './check-cursor';
 
 	let routes = {
 		"/": FirstUseView,
@@ -18,6 +19,9 @@
 		if(!data){
 			push('/dashboard');
 		}
+	});
+	checkCursor((data)=>{
+		console.log(data)
 	});
 </script>
 

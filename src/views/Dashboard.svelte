@@ -2,7 +2,6 @@
     import { onMount } from 'svelte';
     import { Pie } from 'svelte-chartjs';
     import { formatData } from '../data'
-    import { checkCursor } from '../check-cursor';
   import {
     Chart as ChartJS,
     Title,
@@ -15,7 +14,6 @@
   ChartJS.register(Title, Tooltip, Legend, ArcElement, CategoryScale);
     window.api.ListenForRunningWindowsApps(()=>{})
     window.api.saveProgramRunningTime();
-    checkCursor();
     let data;
     onMount(async()=>{
         await formatData((data1)=>{data = data1});
