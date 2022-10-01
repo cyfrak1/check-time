@@ -6,7 +6,7 @@ const {
   showJsonFile,
 } = require("./monitoring");
 const { ListenForCursorPosition } = require("./cursor");
-const { processPythonScript } = require("./processPythonScript");
+const { ListenForMouseClick } = require("./listenForMouseClick");
 
 const API = {
   disActiveWindow: () => ipcRenderer.send("disactive-window"),
@@ -43,8 +43,8 @@ const API = {
   ListenForCursorPosition: (callback) => {
     ListenForCursorPosition(callback);
   },
-  processPythonScript: () => {
-    processPythonScript();
+  ListenForMouseClick: (callback) => {
+    ListenForMouseClick(callback);
   },
 };
 contextBridge.exposeInMainWorld("api", API);

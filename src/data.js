@@ -18,6 +18,7 @@ export const formatData = async (callback) => {
       );
       if (checkIfItsOfficeProgram != undefined) {
         programsPropotion[0] += element.runningTime;
+        // rest of check
       } else {
         programsPropotion[1] += element.runningTime;
       }

@@ -16,7 +16,6 @@
     window.api.ListenForRunningWindowsApps(()=>{})
     window.api.saveProgramRunningTime();
     checkCursor();
-    window.api.processPythonScript()
     let data;
     onMount(async()=>{
         await formatData((data1)=>{data = data1});

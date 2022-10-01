@@ -2,7 +2,7 @@
 	"programsArray": [
 		{
 			"programName": "Brave Browser",
-			"runningTime": 3300
+			"runningTime": 3570
 		},
 		{
 			"programName": "Google Chrome",
@@ -10,7 +10,7 @@
 		},
 		{
 			"programName": "Visual Studio Code",
-			"runningTime": 4010
+			"runningTime": 4280
 		},
 		{
 			"programName": "League of Legends",
@@ -27,6 +27,30 @@
 		{
 			"programName": "Android Studio",
 			"runningTime": 40
+		},
+		{
+			"programName": "Application Frame Host",
+			"runningTime": 240
+		},
+		{
+			"programName": "Windows Command Processor",
+			"runningTime": 240
+		},
+		{
+			"programName": "Electron",
+			"runningTime": 240
+		},
+		{
+			"programName": "Settings",
+			"runningTime": 240
+		},
+		{
+			"programName": "",
+			"runningTime": 240
+		},
+		{
+			"programName": "Windows Explorer",
+			"runningTime": 20
 		}
 	]
 }

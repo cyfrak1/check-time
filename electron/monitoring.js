@@ -53,7 +53,7 @@ const ListenForRunningWindowsApps = async (callback) => {
         }
       }
     });
-  }, 10000);
+  }, 60000);
 };
 const showJsonFile = () => {
   return new Promise((resolve, reject) => {
@@ -93,7 +93,7 @@ const saveProgramRunningTime = () => {
       data.forEach((element, index) => {
         array[index] = {
           programName: element,
-          runningTime: 10, // secounds
+          runningTime: 1, // minute
         };
       });
     } else {
@@ -102,10 +102,10 @@ const saveProgramRunningTime = () => {
         if (findInArray == -1) {
           array[array.length] = {
             programName: element,
-            runningTime: 10, // secounds
+            runningTime: 1, // minute
           };
         } else {
-          array[findInArray].runningTime += 10; // secounds
+          array[findInArray].runningTime += 1; // minute
         }
       });
     }

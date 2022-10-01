@@ -7,6 +7,7 @@ const {
   deleteAllDataForTest,
 } = require("./store");
 
+app.allowRendererProcessReuse = false;
 app.whenReady().then(checkTimeApplicationInit);
 let mainWindow;
 let isFirstUse = true;
